@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 // code away!
-const server = require("./api/server.js");
+const server = require("./server.js");
 
 const defaults = require('./config/defaults.js');
 
