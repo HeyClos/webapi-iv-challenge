@@ -15,9 +15,9 @@ server.use('/user', userRouter)
 
 
 //route handlers
-server.get('/', (req, res) => {
-  res.status(200).json({ api: 'its working '})
-})
+// server.get('/', (req, res) => {
+//   res.status(200).json({ api: 'its working '})
+// })
 
 
 server.get('/', (req, res) => {
