@@ -10,14 +10,14 @@ server.use(express.json());
 server.use(logger);
 
 //we can use middleware locally 
-server.use('/post', postRouter);
-server.use('/user', userRouter)
+server.use('/posts', postRouter);
+server.use('/users', userRouter)
 
 
 //route handlers
-server.get('/', (req, res) => {
-  res.status(200).json({ api: 'its working '})
-})
+// server.get('/', (req, res) => {
+//   res.status(200).json({ api: 'its working '})
+// })
 
 
 server.get('/', (req, res) => {
